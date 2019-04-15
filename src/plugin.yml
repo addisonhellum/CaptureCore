@@ -1,0 +1,57 @@
+name: CaptureCore
+description: CaptureCore Minecraft Network.
+version: 1.0-INDEV
+author: Araos
+main: us.capturecore.core.Main
+
+commands:
+  help:
+    description: Need help? Visit our site.
+    aliases: [guide, ?, helpme, support]
+  setrank:
+    description: Set a player's rank, manually.
+    aliases: [updaterank, sr, rank]
+  adminoverride:
+    description: Bypass server restrictions.
+    aliases: [ao, admin, adminoveride, override, overide]
+  survival:
+    description: Set your gamemode to survival.
+    aliases: [s, gms]
+  creative:
+    description: Set your gamemode to creative.
+    aliases: [c, gmc]
+  adventure:
+    description: Set your gamemode to adventure.
+    aliases: [a, gma]
+  spectator:
+    description: Set your gamemode to spectator.
+    aliases: [sp, gmsp, spec]
+  crowns:
+    description: Display your current Crowns balance.
+    aliases: [balance, money, wallet, bal, crown]
+  discord:
+    description: Displays the discord link.
+    aliases: [discordlink, joindisc, community]
+  setlobby:
+    description: Set the server's lobby location.
+    aliases: [lobbyset, sl]
+  lobby:
+    description: Teleport to the server lobby.
+    aliases: [spawn]
+  chestgiant:
+    description: Spawns the chest giant.
+    aliases: [spawngiant]
+  setcoins:
+    description: Set a player's currency amount.
+    aliases: [setbal, setbalance, setcrowns, setmoney, setcurrency]
+  setxp:
+    description: Set a player's experience/level.
+    aliases: [setexperience, setexp]
+  play:
+    description: Play a game.
+    aliases: [letmeplayagameplease]
+  partydata:
+    description: Backend party control.
+  shop:
+    description: Open the in-game Merchant shop.
+    aliases: [merchant, openshop]

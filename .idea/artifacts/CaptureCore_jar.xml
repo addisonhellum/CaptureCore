@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CaptureCore:jar">
+    <output-path>$USER_HOME$/Downloads/servers</output-path>
+    <root id="archive" name="CaptureCore.jar">
+      <element id="module-output" name="CaptureCore" />
+    </root>
+  </artifact>
+</component>

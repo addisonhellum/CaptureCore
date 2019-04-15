@@ -1,0 +1,8 @@
+server-type: "Lobby"
+sql-data:
+  hostname: ""
+  port: ""
+  database: ""
+  username: ""
+  password: ""
+lobby-location:
